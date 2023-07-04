@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav img {
+  margin: 2em;
+  margin-top: 1em;
+  height: 3em;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("images/header-image.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+}
+.formid h1 {
+  text-align: center;
+  color: rgba(16, 2, 215, 0.978);
+  font-size: 5em;
+}
+.centerform {
+  display: flex;
+  justify-content: center;
+}
+
+.formid {
+  /* margin-top: 3em; */
+  margin-bottom: 3em;
+  width: 37em;
+  /*height: auto; */
+  background: rgba(0, 0, 0, 0.7);
+  padding: 3em;
+  padding-top: 0;
+  border-radius: 10px;
+}
+
+form {
+  color: aliceblue;
+  font-size: x-large;
+  border-radius: 12px;
+  /* margin: 1em; */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  border: 0;
+  outline: 0;
+  width: 100%;
+  padding: 1em;
+  font-size: 20px;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: rgba(72, 72, 72, 0.93);
+}
+
+.formid button {
+  outline: 0;
+  border: 0;
+  color: white;
+  cursor: pointer;
+  padding: 0.3em;
+  width: 100%;
+  padding: 0.8em;
+  font-size: 1em;
+  font-weight: bold;
+  border-radius: 0.5em;
+  background-color: rgb(202, 35, 35);
+}
+/*  */
+.checkbox {
+  display: flex;
+  margin-top: 1em;
+  flex-direction: row;
+}
+input[type="checkbox"] {
+  height: 20px;
+  width: 30px;
+}
+
+p {
+  font-size: smaller;
+  color: rgb(128, 128, 128);
+}
+small {
+  color: rgb(128, 128, 128);
+}
+
+/*forget*/
+.formid a {
+  text-decoration: none;
+  color: white;
+}
+
+.formid a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  padding: 1em 0 1em 10em;
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: x-large;
+}
+
+footer p {
+  font-size: large;
+}
+
+footer .lastdiv {
+  display: flex;
+}
+
+footer ul {
+  margin-right: 4em;
+  list-style: none;
+}
+
+footer ul li {
+  cursor: pointer;
+  margin-top: 2em;
+}
+
+footer ul li:hover {
+  text-decoration: underline;
+}
+footer > p > b:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.language-div {
+  margin-top: 3em;
+  border: 1px solid white;
+  width: fit-content;
+  height: fit-content;
+}
+.language-div i {
+  margin-left: 9px;
+}
+
+.language-btn {
+  font-size: 20px;
+  color: rgb(230, 230, 230);
+  background: transparent;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: 0;
+  outline: 0;
+}
