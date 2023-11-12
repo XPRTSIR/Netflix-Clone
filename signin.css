@@ -153,6 +153,12 @@ footer > p > b:hover {
   outline: 0;
 }
 
+.spanerror {
+  color: red;
+  font-style: italic;
+  font-size: large;
+}
+
 @media (max-width: 1067px) {
   /* body {
     background-image: none;

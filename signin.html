@@ -21,16 +21,35 @@
         <h1>Sign in</h1>
         <form action="">
           Email:
-          <input type="email" name="Email" placeholder="Enter your Email" />
+          <input
+            id="inp"
+            type="email"
+            name="Email"
+            placeholder="Enter your Email"
+          />
+          <span id="s1" class="spanerror"></span>
           <br />
           <br />
           password:
-          <input type="password" name="Pass" placeholder="Enter password" />
+          <input
+            id="pwd"
+            type="password"
+            name="Pass"
+            placeholder="Enter password"
+          />
+          <span id="s2" class="spanerror"></span>
           <br />
           <br />
-          <button type="submit" name="button">Sign in</button><br />
+          <button
+            id="btn"
+            type="submit"
+            name="button"
+            onclick="return validate()"
+          >
+            Sign in</button
+          ><br />
           <div class="checkbox">
-            <input type="checkbox" />
+            <input class="input" type="checkbox" />
             <p>Remember me</p>
           </div>
           <br />
@@ -68,5 +87,6 @@
         </select>
       </div>
     </footer>
+    <script src="signin.js"></script>
   </body>
 </html>
